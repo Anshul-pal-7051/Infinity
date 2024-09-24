@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  /* box-sizing: border-box; */
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0c4c7f;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(138, 138, 169);
+  }
+  .upnav{
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    background-color:#80b918;
+    display: flex;
+}
+.upnav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.9rem 0.6rem;
+  color: white;
+}
+.upnav li a {
+    font-size: 1.3rem;
+  text-decoration: none;
+ color: white;
+}
+.upnav ul {
+  margin-left: 10rem;
+}
+.upnav #two{
+  margin-left: 30rem;
+}
+.upnav #two li{
+    font-size: 1.3rem;
+  }
+.upnav li:hover{
+  background-color:gainsboro;
+  transition: 0.4s;
+}
+.downnav{
+    width: 100%;
+    height: 5rem;
+    background-color:#55a630;
+    position: fixed;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left{
+    color: white;
+    margin-left: 8rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.right{
+  margin-left: 15rem;
+  height: 5rem;
+}
+.right ul{
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right ul li{
+  padding: 0rem 1rem;
+}
+.right li a:hover{
+ font-size: 1.3199rem;
+ color: lavender;
+}
+.right ul a{
+    font-size: 1.3rem;
+  color: white;
+}
+.firstSection{
+    height: 70vh;
+    max-width: 67vw;
+}
+.firstSectiontext1{
+    margin-top: 15rem;
+    margin-left: 30rem;
+    width: 100%;
+    color: #55a630;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .firstSectiontext2{
+    margin-left: 30rem;
+    width: 100%;
+    color: #55a630;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  #element{
+    margin-left:30rem;
+    color: #55a630;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .btn{
+    height: 10vh;
+    width: 10vw;
+    margin-top: 5rem;
+    margin-left: 42rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 9px 9px #999;
+  }
+  .btn:active{
+    background-color: lavender;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .hr{
+    height: 0.2rem;
+    background-color: #55a630;
+  }
+  .secondSection{
+    margin-top: 5rem;
+  } 
+.secondSection img{
+    height: 60vh;
+    width: 50vw;
+    margin: 5rem 24rem;
+}
+.secondSection p{
+    color:black;
+    margin: 0rem 33rem;
+    margin-bottom: 2rem;
+}
+.thirdSection{
+    height: 150vh;
+    max-width: 67vw;
+    margin-bottom: 10rem;
+}
+.subjects{
+    margin-top: 13rem;
+    margin-left: 15rem;
+    height: 145vh;
+    width: 100%;
+    border: 0.5rem solid #55a630;
+    border-radius: 10px;
+}
+.subjectheading{
+    height: 7vh;
+    width: 20vw;
+    background-color: #55a630;
+    margin: 2rem 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.subjectheading h3{
+    color: white;
+}
+.selectSubject{
+    margin-left: 6rem;
+    height: 130vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.selectSubject p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.leftSubject{
+    margin-top: 2rem;
+}
+.rightSubject{
+    margin-top: 2rem;
+}
+.leftSubject button{
+ display: block;
+ height: 8vh;
+ width: 12vw;
+ background-color: #67a24c ;
+ border-radius: 5px;
+ margin: 5rem 0rem;
+ border: none;
+ cursor: pointer;
+}
+.leftSubject button:active{
+    background-color:#55a630;
+    box-shadow: 5px 5px #666;
+    transform: translateY(4px);
+}
+.leftSubject button{
+    color: white;
+    font-size: 1.2rem;
+}
+.rightSubject button{
+    display: block;
+    height: 8vh;
+    width: 12vw;
+    background-color:#67a24c ;
+    border-radius: 5px;
+    margin: 5rem 0rem;
+    border: none;
+    cursor: pointer;
+}
+.rightSubject button:active{
+    background-color:#55a630;
+    box-shadow: 5px 5px #666;
+    transform: translateY(4px);
+}
+.rightSubject button{
+    color: white;
+    font-size: 1.2rem;
+}
+.fourthSection{
+    height: 40vh;
+    max-width: 67vw;
+    margin-top: 8rem;
+}
+.Syllabus{
+    margin-left: 15rem; 
+}
+.Syllabus h2{
+margin-bottom: 2rem;
+}
+.fourthSection button{
+    width: 10vw;
+    height: 8vh;
+    background-color: #55a630;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.fifthSection{
+    height: 70vh;
+    max-width: 67vw;
+    margin-top: 8rem;
+    margin-bottom: 15rem;
+}
+.fifthSection h2{
+    margin-left: 15rem;
+    margin-bottom: 2rem;
+    }
+.videoLectures{
+    width: 100%;
+    height: 65vh;
+    border: 0.5rem solid #55a630;
+    border-radius: 7px;
+    margin-left: 15rem;
+}
+.videoLectures button{
+ height: 8vh;
+ width: 12vw;
+ background-color: #67a24c ;
+ border-radius: 5px;
+ margin: 3rem 10rem;
+ border: none;
+ cursor: pointer;
+ color: white;
+ font-size: 1.2rem;
+}
+.sixthSection{
+  height: 830vh;
+  max-width: 67vw;
+  margin-top: 8rem;
+  margin-bottom: 15rem;
+}
+.sixthSection h2{
+  margin-left: 15rem;
+  margin-bottom: 2rem;
+  }
+.professorsList{
+  height: 829vh;
+  width: 100%;
+  border: 0.5rem solid #55a630;
+  border-radius: 10px;
+  margin-left: 15rem;
+  display: flex;
+}
+ .leftProf{
+  height: 829vh;
+  width: 45%;
+}  
+.rightProf{
+   height: 829vh;
+   width: 55%;
+}
+.Prof{
+  height: 340px;
+  width: 400px;
+  margin: 5rem 4rem;
+  background-size: cover;
+}
+#onee{
+  background-image: url(img/AAMIR.jpg); 
+  background-size: cover;
+}
+#onee:hover{
+ transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#twoo{
+  background-image: url(img/AD.jpg);
+}
+#twoo:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#three{
+  background-image: url(img/AGM.jpg);
+}
+#three:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#four{
+  background-image: url(img/AK.jpeg);
+}
+#four:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#five{
+  background-image: url(img/AKG.jpg);
+}
+#five:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#six{
+  background-image: url(img/BK.jpg);
+}
+#six:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#seven{
+  background-image: url(img/BS.jpeg);
+}
+#seven:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#eight{
+  background-image: url(img/FK.jpg);
+}
+#eight:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#nine{
+  background-image: url(img/GQZ.jpg);
+}
+#nine:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#ten{
+  background-image: url(img/GRB.jpg);
+}
+#ten:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#eleven{
+  background-image: url(img/LTC.jpg);
+}
+#eleven:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#twelve{
+  background-image: url(img/NJB.jpg);
+}
+#twelve:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#thirteen{
+  background-image: url(img/OMS.jpg);
+}
+#thirteen:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#fourteen{
+  background-image: url(img/PK.jpeg);
+}
+#fourteen:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#fifteen{
+  background-image: url(img/SAA.jpg);
+}
+#fifteen:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#sixteen{
+  background-image: url(img/SMS.png);
+}
+#sixteen:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+.professorsList img{
+  height: 340px;
+  width: 400px;
+}
+.professorsList img:hover{
+  transform: ease-in-out;
+  transition: 0.5s;
+}
+#profDetails{
+  height: 340px;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+#profDetails button{
+  height: 7vh;
+  width: 9vw;
+  background-color:#55a630;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+  margin: 1rem 2rem;
+  font-weight: bold;
+}
+#profDetails h1{
+  margin: 1rem 2rem;
+}
+#profDetails h3{
+  margin: 1rem 2rem;
+}
+#profDetails i{
+  margin: 1rem 2rem;
+}
+#profDetails p{
+  margin: 1rem 2rem;
+}
+#profDetails button:hover{
+  background-color:rgb(42, 33, 33) ;
+  transition: 0.4s;
+}

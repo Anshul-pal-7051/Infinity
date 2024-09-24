@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  /* box-sizing: border-box; */
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0c4c7f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(138, 138, 169);
+}
+body{
+    background-color: white;
+}
+.upnav{
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    background-color:#80b918;
+    display: flex;
+}
+.upnav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.9rem 0.6rem;
+  color: white;
+}
+.upnav li a {
+  font-size: 1.3rem;
+  text-decoration: none;
+ color: white;
+}
+.upnav ul {
+  margin-left: 10rem;
+}
+.upnav #two{
+  margin-left: 30rem;
+}
+.upnav #two li{
+  font-size: 1.3rem;
+}
+.upnav li:hover{
+  /* font-size: 1.32rem; */
+  background-color:gainsboro;
+  transition: 0.4s;
+}
+.downnav{
+    width: 100%;
+    height: 5rem;
+    background-color:#55a630;
+    position: fixed;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left{
+    color: white;
+    margin-left: 8rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.right{
+  margin-left: 15rem;
+  height: 5rem;
+}
+.right ul{
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right ul li{
+  padding: 0rem 1rem;
+}
+.right li a:hover{
+font-size: 1.3199rem;
+color: lavender;
+}
+.right ul a{
+  font-size: 1.3rem;
+  color: white;
+}
+.firstSection{
+  height: 80vh;
+max-width: 67vw;
+ /* background-color: red; */
+}
+.firstSectiontext1{
+  margin-top: 15rem;
+  margin-left: 30rem;
+  width: 100%;
+  color: #55a630;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.firstSectiontext2{
+  margin-left: 30rem;
+  width: 100%;
+  color: #55a630;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+#element{
+  margin-left:30rem;
+  color: #55a630;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.btn{
+  height: 10vh;
+  width: 10vw;
+  margin-top: 5rem;
+  margin-left: 42rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 9px 9px #999;
+}
+.btn:active{
+  background-color: lavender;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.secondSection{
+  height: 140vh;
+  max-width: 70vw;
+  margin-top: 5rem;
+  margin-bottom: 12rem;
+ 
+}
+.heading{
+  height: 5rem;
+  width: 40vw;
+  margin-left: 30rem;
+  margin-top: 3rem;
+  background-color: #55a630;
+  border-radius: 7px;
+}
+#ECE{
+  color: white;
+  margin-left: 7rem;
+}
+#NIT{
+  color: white;
+  margin-left: 14rem;
+}
+.Semester{
+  margin-top: 5rem;
+ margin-left: 15rem;
+ height: 131vh;
+ width: 100%;
+ border: 0.5rem solid #55a630;
+ border-radius: 10px;
+}
+.Semester li{
+  /* display: inline-block; */
+  list-style:disc ;
+  margin:3rem 5rem;
+  height: 4rem;
+  background-color: lavender;
+  border-radius: 7px;
+  padding: 0.5rem;
+}
+.Semester li a{
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+margin-left: 3rem;
+}
+.Semester li a:hover{
+  color: #666;
+  font-size: 1.32rem;
+}
+.thirdSection{
+  height: 60vh;
+  max-width: 70vw;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+.heading3{
+  height: 4rem;
+  width: 25vw;
+  margin-left: 34rem;
+  margin-top: 3rem;
+  background-color: #55a630;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+#About{
+  color: white;
+}
+.fourthSection{
+  height: 60vh;
+  max-width: 70vw;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+.fourthSection h2{
+  color: white;
+}
+.heading4{
+  height: 4rem;
+  width: 25vw;
+  margin-left: 34rem;
+  margin-top: 3rem;
+  background-color: #55a630;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+#Contact{
+  color: white;
+}
+.upfooter{
+  position: static;
+  height: 4rem;
+  width: 100%;
+  background-color: #83c664;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  left: 0;
+  bottom: 0rem;
+  right: 0;
+}
+#angleup:active{
+  background-color:#55a630;
+  box-shadow: 5px 5px lavender;
+  transform: translateY(4px);
+  border-radius: 5px;
+}
+.downfooter{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 10rem;
+  width: 100%;
+  background-color: #55a630;
+}
+.leftfooter{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 10.5rem;
+  display: inline;
+}
+.rightfooter{
+  margin-left: 10rem;
+  margin-top: 1rem;
+  display: inline-block;
+}
+.rightfooter a{
+  color:white;
+  font-size: 1.1rem;
+}
+.rightfooter a:hover{
+  font-size: 1.119rem;
+  color: lavender;
+}
+.downfooter p{
+  margin-left: 38rem;
+color: white;
+margin-top: 1rem;
+}
+#footlinkedin:hover{
+  color: #55a630;
+}
+.hr{
+  height: 0.2rem;
+  background-color: #55a630;
+}
+.sixthSection{
+  height: 830vh;
+  max-width: 67vw;
+  margin-top: 8rem;
+  margin-bottom: 15rem;
+}
+.sixthSection h2{
+  margin-left: 15rem;
+  margin-bottom: 2rem;
+  }
+.professorsList{
+  height: 829vh;
+  width: 100%;
+  border: 0.5rem solid #55a630;
+  border-radius: 10px;
+  margin-left: 15rem;
+  display: flex;
+}
+ .leftProf{
+  height: 829vh;
+  width: 45%;
+}  
+.rightProf{
+   height: 829vh;
+   width: 55%;
+}
+.Prof{
+  height: 340px;
+  width: 400px;
+  margin: 5rem 4rem;
+  background-size: cover;
+}
+#onee{
+  background-image: url(img/AAMIR.jpg); 
+  background-size: cover;
+}
+#onee:hover{
+ transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#twoo{
+  background-image: url(img/AD.jpg);
+}
+#twoo:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#three{
+  background-image: url(img/AGM.jpg);
+}
+#three:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#four{
+  background-image: url(img/AK.jpeg);
+}
+#four:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#five{
+  background-image: url(img/AKG.jpg);
+}
+#five:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#six{
+  background-image: url(img/BK.jpg);
+}
+#six:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#seven{
+  background-image: url(img/BS.jpeg);
+}
+#seven:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#eight{
+  background-image: url(img/FK.jpg);
+}
+#eight:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#nine{
+  background-image: url(img/GQZ.jpg);
+}
+#nine:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#ten{
+  background-image: url(img/GRB.jpg);
+}
+#ten:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#eleven{
+  background-image: url(img/LTC.jpg);
+}
+#eleven:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#twelve{
+  background-image: url(img/NJB.jpg);
+}
+#twelve:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#thirteen{
+  background-image: url(img/OMS.jpg);
+}
+#thirteen:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#fourteen{
+  background-image: url(img/PK.jpeg);
+}
+#fourteen:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#fifteen{
+  background-image: url(img/SAA.jpg);
+}
+#fifteen:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+#sixteen{
+  background-image: url(img/SMS.png);
+}
+#sixteen:hover{
+  transform: scale(1.05);
+  transition: .3s ease-out;
+}
+.professorsList img{
+  height: 340px;
+  width: 400px;
+}
+.professorsList img:hover{
+  transform: ease-in-out;
+  transition: 0.5s;
+}
+#profDetails{
+  height: 340px;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+#profDetails button{
+  height: 7vh;
+  width: 9vw;
+  background-color:#55a630;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+  margin: 1rem 2rem;
+  font-weight: bold;
+}
+#profDetails h1{
+  margin: 1rem 2rem;
+}
+#profDetails h3{
+  margin: 1rem 2rem;
+}
+#profDetails i{
+  margin: 1rem 2rem;
+}
+#profDetails p{
+  margin: 1rem 2rem;
+}
+#profDetails button:hover{
+  background-color:rgb(42, 33, 33) ;
+  transition: 0.4s;
+}
